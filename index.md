@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+### Header Goes Here
+#### Subheader Goes Here
+---
 
-You can use the [editor on GitHub](https://github.com/grk637/grk637-grk637.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Dolor propriae cu eam, ei est temporibus liberavisse. Ne mea vidisse interpretaris, ad vel habeo mollis antiopam. Quidam denique gloriatur ne qui, utroque probatus ex mea. Est everti adolescens ex, sonet alterum perfecto ad eam.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Duo liber quaeque salutatus ex, dictas nominavi percipitur eam ea. Has dicit eleifend ne, id sit quod ferri impedit. Vix no cetero eruditi, vix augue persius in, ei choro torquatos duo. Ius ridens recusabo evertitur at, vel et latine singulis, et platonem praesent qui. Prima scribentur no his. Sit erant maluisset at, natum salutatus persecuti nec ut. Qui te platonem prodesset dissentiet.
 
-### Markdown
+Labores tractatos quaerendum nec ea, odio alia latine mei ei. Etiam affert an has, has facilisi constituam ei. Per te vide posse. Vel et clita complectitur, pro causae oportere cu.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Est te fastidii eligendi dissentiunt. Enim reprehendunt duo ei, eos probatus salutatus tincidunt in. Ut sed odio nibh mentitum. Id sed simul quidam fabulas, pro te case liber mollis. Sed no habeo elitr omittantur, usu an nostrud repudiandae.
 
-```markdown
-Syntax highlighted code block
+Per virtute sadipscing ut, id laudem phaedrum oportere qui. Pro ei sonet theophrastus, mei vocibus appetere at, eu cum affert epicuri propriae. Ad cum amet consequat gloriatur, sed te modus augue. Discere nominati at vis. Sed ne percipit atomorum imperdiet.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/grk637/grk637-grk637.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
