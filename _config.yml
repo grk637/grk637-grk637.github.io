@@ -1,3 +1,6 @@
 theme: jekyll-theme-minimal
 
 title: WHITE PAPER PROJECT.
+
+[Test Link One](https://www.google.com "Google's Homepage")  
+[Test Link Two](https://www.google.com "Google's Homepage")
