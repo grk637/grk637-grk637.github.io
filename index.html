@@ -1,246 +1,490 @@
 <!DOCTYPE html>
-<html lang="en">
-<title>White Paper Project</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
-.w3-third img:hover{opacity: 1}
-</style>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<html lang="en-GB" class="no-js"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><!--[if lt IE 9]>
+	<script src="contents/ui/theme/js/html5.js"></script>
+	<![endif]--><script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script><title>WHITE PAPER PROJECT.</title><script>
+                            /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+                            if ( typeof WebFontConfig === "undefined" ) {
+                                WebFontConfig = new Object();
+                            }
+                            WebFontConfig['google'] = {families: ['Oswald']};
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <h3 class="w3-padding-64 w3-center"><b>WHITE<br>PAPER <br>PROJECT.</b></h3>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">ONE</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">TWO</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">THREE</a>
-</nav>
+                            (function() {
+                                var wf = document.createElement( 'script' );
+                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+                                wf.type = 'text/javascript';
+                                wf.async = 'true';
+                                var s = document.getElementsByTagName( 'script' )[0];
+                                s.parentNode.insertBefore( wf, s );
+                            })();
+                        </script><meta name="robots" content="noindex,follow"><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//secure.gravatar.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link href="https://fonts.gstatic.com" crossorigin rel="preconnect"><link rel="stylesheet" id="twentyfifteen-jetpack-css" href="https://c0.wp.com/p/jetpack/6.7/modules/theme-tools/compat/twentyfifteen.css" type="text/css" media="all"><link rel="stylesheet" id="wp-block-library-css" href="contents/lib/gutenberg/build/block-library/style.css" type="text/css" media="all"><link rel="stylesheet" id="wtr-css-css" href="contents/lib/worth-the-read/css/wtr.css" type="text/css" media="all"><link rel="stylesheet" id="wpfront-scroll-top-css" href="contents/lib/wpfront-scroll-top/css/wpfront-scroll-top.min.css" type="text/css" media="all"><link rel="stylesheet" id="tt-easy-google-fonts-css" href="https://fonts.googleapis.com/css?family=Oswald%3Aregular%2C300&amp;subset=latin%2Call&amp;ver=4.9.8" type="text/css" media="all"><link rel="stylesheet" id="twentyfifteen-fonts-css" href="https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&amp;subset=latin%2Clatin-ext" type="text/css" media="all"><link rel="stylesheet" id="genericons-css" href="https://c0.wp.com/p/jetpack/6.7/_inc/genericons/genericons/genericons.css" type="text/css" media="all"><link rel="stylesheet" id="twentyfifteen-style-css" href="contents/ui/theme/style.css" type="text/css" media="all"><style id="twentyfifteen-style-inline-css" type="text/css">
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">WHITE PAPER PROJECT.</span>
-  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
-</header>
+		/* Custom Header Background Color */
+		body:before,
+		.site-header {
+			background-color: #191919;
+		}
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+		@media screen and (min-width: 59.6875em) {
+			.site-header,
+			.secondary {
+				background-color: transparent;
+			}
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				color: #191919;
+			}
+		}
 
-  <!-- Push down content on small screens -->
-  <div class="w3-hide-large" style="margin-top:83px"></div>
-<!-- custom content -->
-<div class="w3-container w3-center w3-padding-32">
-<!--  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32"> -->
-  <!--  <object width="80%" height="100%" data="prideprejudice.pdf"></object> -->
-<iframe src="https://docs.google.com/file/d/1vrGjuUpOK3QFw7jt6SL9M4uEGQwAR41i/preview" width="80%" height="900"></iframe>
 
-  <!-- End custom page content -->
+		/* Custom Sidebar Text Color */
+		.site-title a,
+		.site-description,
+		.secondary-toggle:before {
+			color: #ffffff;
+		}
 
- <!-- Photo grid
-  <div class="w3-row">
-    <div class="w3-third">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      <img src="/w3images/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
-    </div>
+		.site-title a:hover,
+		.site-title a:focus {
+			color: #ffffff; /* Fallback for IE7 and IE8 */
+			color: rgba( 255, 255, 255, 0.7);
+		}
 
-    <div class="w3-third">
-      <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
-      <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-      <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
-    </div>
+		.secondary-toggle {
+			border-color: #ffffff; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 255, 255, 255, 0.1);
+		}
 
-    <div class="w3-third">
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
-      <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-      <img src="/w3images/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful day!">
-    </div>
-  </div> -->
+		.secondary-toggle:hover,
+		.secondary-toggle:focus {
+			border-color: #ffffff; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 255, 255, 255, 0.3);
+		}
 
-  <!-- Pagination
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-    </div>
-  </div> -->
+		.site-title a {
+			outline-color: #ffffff; /* Fallback for IE7 and IE8 */
+			outline-color: rgba( 255, 255, 255, 0.3);
+		}
 
-  <!-- Modal for full size images on click
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div> -->
+		@media screen and (min-width: 59.6875em) {
+			.secondary a,
+			.dropdown-toggle:after,
+			.widget-title,
+			.widget blockquote cite,
+			.widget blockquote small {
+				color: #ffffff;
+			}
 
-  <!-- About section
-  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
-    <h4><b>About Me</b></h4>
-    <img src="/w3images/avatar_hat.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
-    <div class="w3-content w3-justify" style="max-width:600px">
-      <h4>My Name</h4>
-      <p>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <p>mail: example@example.com</p>
-      <p>tel: 5353 35531</p>
-      <hr class="w3-opacity">
-      <h4 class="w3-padding-16">Technical Skills</h4>
-      <p class="w3-wide">Photography</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
-      </div>
-      <p class="w3-wide">Web Design</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
-      </div>
-      <p class="w3-wide">Photoshop</p>
-      <div class="w3-white">
-        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
-      </div>
-      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom">Download Resume</button></p>
-      <hr class="w3-opacity">
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a {
+				background-color: #ffffff;
+			}
 
-      <h4 class="w3-padding-16">How much I charge</h4>
-      <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half w3-margin-bottom">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-            <li class="w3-padding-16">Web Design</li>
-            <li class="w3-padding-16">Photography</li>
-            <li class="w3-padding-16">5GB Storage</li>
-            <li class="w3-padding-16">Mail Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 10</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-            </li>
-          </ul>
-        </div>
+			.textwidget a {
+				border-color: #ffffff;
+			}
 
-        <div class="w3-half">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
-            <li class="w3-padding-16">Web Design</li>
-            <li class="w3-padding-16">Photography</li>
-            <li class="w3-padding-16">50GB Storage</li>
-            <li class="w3-padding-16">Endless Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 25</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large">Sign Up</button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div> -->
+			.secondary a:hover,
+			.secondary a:focus,
+			.main-navigation .menu-item-description,
+			.widget,
+			.widget blockquote,
+			.widget .wp-caption-text,
+			.widget .gallery-caption {
+				color: rgba( 255, 255, 255, 0.7);
+			}
 
-  <!-- Contact section
-  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
-    <div class="w3-content" style="max-width:600px">
-      <h4 class="w3-center"><b>Contact Me</b></h4>
-      <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
-        </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
-        </div>
-        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
-      </form>
-    </div>
-  </div> -->
+			.widget button:hover,
+			.widget button:focus,
+			.widget input[type="button"]:hover,
+			.widget input[type="button"]:focus,
+			.widget input[type="reset"]:hover,
+			.widget input[type="reset"]:focus,
+			.widget input[type="submit"]:hover,
+			.widget input[type="submit"]:focus,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				background-color: rgba( 255, 255, 255, 0.7);
+			}
 
-  <!-- Footer
-  <footer class="w3-container w3-padding-32 w3-grey">
-    <div class="w3-row-padding">
-      <div class="w3-third">
-        <h3>INFO</h3>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      </div>
+			.widget blockquote {
+				border-color: rgba( 255, 255, 255, 0.7);
+			}
 
-      <div class="w3-third">
-        <h3>BLOG POSTS</h3>
-        <ul class="w3-ul">
-          <li class="w3-padding-16 w3-hover-black">
-            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Lorem</span><br>
-            <span>Sed mattis nunc</span>
-          </li>
-          <li class="w3-padding-16 w3-hover-black">
-            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Ipsum</span><br>
-            <span>Praes tinci sed</span>
-          </li>
-        </ul>
-      </div> -->
+			.main-navigation ul,
+			.main-navigation li,
+			.secondary-toggle,
+			.widget input,
+			.widget textarea,
+			.widget table,
+			.widget th,
+			.widget td,
+			.widget pre,
+			.widget li,
+			.widget_categories .children,
+			.widget_nav_menu .sub-menu,
+			.widget_pages .children,
+			.widget abbr[title] {
+				border-color: rgba( 255, 255, 255, 0.1);
+			}
 
-    <!--  <div class="w3-third">
-        <h3>POPULAR TAGS</h3>
-        <p>
-          <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">London</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Family</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Shopping</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Games</span>
-        </p>
-      </div>
-    </div>
-  </footer>
+			.dropdown-toggle:hover,
+			.dropdown-toggle:focus,
+			.widget hr {
+				background-color: rgba( 255, 255, 255, 0.1);
+			}
 
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
--->
-<!-- End page content -->
+			.widget input:focus,
+			.widget textarea:focus {
+				border-color: rgba( 255, 255, 255, 0.3);
+			}
 
-</div>
+			.sidebar a:focus,
+			.dropdown-toggle:focus {
+				outline-color: rgba( 255, 255, 255, 0.3);
+			}
+		}
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
+</style><!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='contents/ui/theme/css/ie.css' type='text/css' media='all' />
+<![endif]--><!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='contents/ui/theme/css/ie7.css' type='text/css' media='all' />
+<![endif]--><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/6.7/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/4.9.8/inc/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/4.9.8/inc/js/jquery/jquery-migrate.min.js"></script><style id="mystickymenu" type="text/css">#mysticky-nav { width:100%; position: static; }#mysticky-nav.wrapfixed { position:fixed; left: 0px; margin-top:0px;  z-index: 99990; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s; transition: 0.3s; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity:1; background-color: #000000;}#mysticky-nav .myfixed { margin:0 auto; float:none; border:0px; background:none; max-width:100%; }</style><style type="text/css">.wtr-time-wrap{
+	/* wraps the entire label */
+	margin: 0 10px;
+
+}
+.wtr-time-number{
+	/* applies only to the number */
+
+}</style><link rel="dns-prefetch" href="//v0.wordpress.com"><link rel="dns-prefetch" href="//c0.wp.com"><link rel="dns-prefetch" href="//i0.wp.com"><link rel="dns-prefetch" href="//i1.wp.com"><link rel="dns-prefetch" href="//i2.wp.com"><style type="text/css">img#wpstats{display:none}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #191919; }
+</style><style type="text/css">
+				html:not( .jetpack-lazy-images-js-enabled ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style><script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script><!-- Jetpack Open Graph Tags --><meta property="og:type" content="website"><meta property="og:title" content="WHITE PAPER PROJECT."><meta property="og:url" content=""><meta property="og:site_name" content="WHITE PAPER PROJECT."><meta property="og:image" content="https://s0.wp.com/i/blank.jpg"><meta property="og:locale" content="en_GB"><meta name="twitter:text:title" content="0. PREAMBLE"><meta name="twitter:card" content="summary"><meta name="twitter:description" content="Visit the post for more."><!-- End Jetpack Open Graph Tags --><!-- BEGIN ExactMetrics v5.3.5 Universal Analytics - https://exactmetrics.com/ --><script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-129733599-1', 'auto');
+  ga('send', 'pageview');
+</script><!-- END ExactMetrics Universal Analytics --><style type="text/css" id="wp-custom-css">
+				.site-info { display: none; }
+
+.current_page_item {
+border-bottom: 1px solid white !important;
 }
 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
 }
+			</style><style type="text/css" title="dynamic-css" class="options-output">.wtr-time-wrap{font-family:Oswald;line-height:16px;font-weight:normal;font-style:normal;color:#CCCCCC;font-size:16px;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .wtr-time-wrap,{opacity: 0;}.ie.wf-loading .wtr-time-wrap,{visibility: hidden;}</style><style id="tt-easy-google-font-styles" type="text/css">p { }
+h1 { font-family: 'Oswald'; font-style: normal; font-weight: 400; }
+h2 { font-family: 'Oswald'; font-style: normal; font-weight: 400; }
+h3 { }
+h4 { font-family: 'Oswald'; font-style: normal; font-weight: 300; }
+h5 { }
+h6 { font-family: 'Oswald'; font-style: normal; font-weight: 400; }
+</style></head><body class="home page-template-default page page-id-6 custom-background">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#contentindex.html">Skip to content</a>
 
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner"><div class="site-branding">
+										<p class="site-title"><a href="index.html" rel="home">WHITE PAPER PROJECT.</a></p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header --><div id="secondary" class="secondary">
 
+
+
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widget-title">TABLE OF CONTENTS</h2><div class="menu-primary-container"><ul id="menu-primary" class="menu"><li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-17"><a href="index.html" data-ps2id-api="true">0. Preamble</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-38"><a href="historical-contextindex.html" data-ps2id-api="true">1. Historical Context</a>
+<ul class="sub-menu"><li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="https://ihssfigtege.wordpress.com/#1910index.html" data-ps2id-api="true">1-1. 1910 &ndash; 1945</a></li>
+	<li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="https://ihssfigtege.wordpress.com/#1945index.html" data-ps2id-api="true">1-2. 1945 &ndash; Present</a></li>
+</ul></li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39"><a href="recent-eventsindex.html" data-ps2id-api="true">2. Recent Events</a>
+<ul class="sub-menu"><li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="https://ihssfigtege.wordpress.com/#overview_recentindex.html" data-ps2id-api="true">2-1. Overview</a></li>
+	<li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="https://ihssfigtege.wordpress.com/#coverageindex.html" data-ps2id-api="true">2-2. Coverage by Korean, Japanese and International Media</a></li>
+</ul></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="a-bigger-pictureindex.html" data-ps2id-api="true">3. A Bigger Picture</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="concluding-remarksindex.html" data-ps2id-api="true">4. Concluding Remarks</a></li>
+</ul></div></aside><aside id="custom_html-3" class="widget_text widget widget_custom_html"><h2 class="widget-title">RESOURCES</h2><div class="textwidget custom-html-widget"><ul style="list-style-type:none"><li><a href="http://www.google.comindex.html" target="_blank">One</a></li>
+	<li>two</li>
+</ul><br><a href="#mainindex.html">Back to Top</a>
+</div></aside></div><!-- .widget-area -->
+
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main"><article id="post-6" class="post-6 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">0. PREAMBLE</h1>	</header><!-- .entry-header --><div class="entry-content">
+		<span class="wtr-time-wrap before-content"><span class="wtr-time-number">10</span> min read</span><div id="wtr-content" data-bg="#878787" data-fg="#ffffff" data-width="5" data-mute="" data-fgopacity="0.5" data-mutedopacity="0.5" data-placement="top" data-placement-offset="0" data-content-offset="0" data-placement-touch="top" data-placement-offset-touch="0" data-transparent="" data-touch="1" data-comments="0" data-commentsbg="#ffcece" data-location="page" data-mutedfg="#ffffff">
+<hr class="wp-block-separator is-style-default"><h4>SECTIONS</h4>
+
+
+
+<p style="font-size:14px;"><em><a href="#brief_overviewindex.html">0-1. Brief overview of the current situation</a>
+<br><a href="#purposeindex.html">0-2. Purpose of Writing</a></em></p>
+
+
+
+<div style="height:22px;" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator is-style-wide"><h2 id="brief_overview">0-1. Brief overview of the current situation</h2>
+
+
+
+<p>Lorem ipsum dolor sit amet, quando nostro consequuntur his id, nam modo virtute iuvaret ei, ad atqui fierent phaedrum vel. Ne verear epicurei sit, debet scripta vix ad. Mei ut laboramus moderatius, mel eu graecis convenire, pro ne agam fastidii. Mea ad nemore alienum, ne pri dolores eligendi rationibus. No his summo tacimates, no idque delenit deseruisse cum.</p>
+
+
+
+<p>Stet debet conceptam ea pro, dicit vivendo appellantur ea duo, audiam blandit eum cu. Sale sententiae ex usu, ad has tota simul, in modus essent cum. Vis verterem tractatos ut, ne graeci tibique vix. Eos everti impetus eu, vero aliquip ut has. Eu nam quas maluisset, et nam falli feugait definiebas. Scaevola facilisi prodesset ne sed, ne sea aeterno inermis vituperatoribus.</p>
+
+
+
+<p>Facete convenire nec id, wisi labore cum ea. Tamquam aliquando eam ne, option principes disputando eos ne. Autem viderer sit ex, copiosae expetenda complectitur duo at. Sale tractatos ad sed, option nominavi laboramus te vis, eu dicat appellantur intellegebat eum. Id sea prompta dolorum perpetua, ut mei omnium delectus iudicabit.</p>
+
+
+
+<p>Illud doctus persius cu duo, ne qui porro deseruisse, ex omnis atomorum scribentur his. Ius purto tempor torquatos ad, id ceteros perpetua sea. Quot efficiantur usu ad. Equidem corpora molestiae pro te. Eligendi vituperatoribus id sed, te vel corpora complectitur consequuntur. Ex illud pertinax sea.</p>
+
+
+
+<p>Te suas adipisci explicari nec, et cum quot instructior, purto theophrastus ex pri. At sit porro gubergren consequat. Sed tantas semper id, ei eam prima nostro. Admodum deseruisse moderatius vim id. At quod munere patrioque vis, elaboraret ullamcorper an his.</p>
+
+
+
+<p>Meis brute soleat pri in, ne eum agam esse quaeque, sit ei cetero option. Sea alii audiam ad, feugiat accusata definitiones eos te, eam omnesque voluptatum dissentiet et. Id sit antiopam assentior, saperet suavitate neglegentur sed eu, errem munere latine sed ne. Posse meliore pro no, esse zril homero et eos. Id dicunt aeterno vim.</p>
+
+
+
+<p>Nec maluisset repudiandae ea, te quo elit labore. Mel habeo dolorum ut, modo theophrastus at cum, veri vidisse qui ei. Illud labore semper nam cu, vix at fabellas pertinacia. Aeque utinam mea et, an alii insolens dissentiunt nam, eam ad nusquam reprimique. Ei cum porro alienum convenire, eum aliquid singulis an. Nostrud equidem convenire in eos, ea labore gubergren est. Ea has percipit indoctum, probatus patrioque te per.</p>
+
+
+
+<p>Percipit verterem an has, mea in posse convenire, ei est lorem splendide democritum. Mutat eleifend an mea, ut perfecto salutandi periculis cum, porro inani facilis vix cu. Quo equidem tacimates concludaturque ea. Has offendit contentiones no, volumus definiebas vel et. Tota eruditi efficiendi te vis, quo an nemore blandit lucilius, fuisset conceptam moderatius ea sed.</p>
+
+
+
+<p>In impedit accumsan forensibus quo, alterum reformidans an nam. Ut sed magna liber saepe. Ex dicta voluptaria sea, no sint assum eos. Sit euismod lobortis convenire no, in qui tation iuvaret gubergren.</p>
+
+
+
+<p>Probo essent in nam, illud luptatum torquatos duo ad, affert tibique eam id. Ex ius voluptua placerat, quis deleniti eu ius. Munere euismod dissentias ei has, eos novum solet referrentur in. Sale mundi id sit, cum te brute aliquando, vidisse elaboraret cotidieque quo in. Expetenda moderatius instructior sit no, vim ut tota solum aeque.</p>
+
+
+
+<p>Alia purto sea ea, ne denique maluisset eum. Vim malis deterruisset et, at altera senserit quo. Id atqui reprimique sit, dicam oratio petentium cum te, impetus corpora ad est. Ea duis eruditi deserunt mea. No sale tritani patrioque mel, unum velit menandri ex his, mei alienum definiebas ei. Disputando complectitur in eum, in legere iriure has.</p>
+
+
+
+<p>At qui tacimates consequat liberavisse, at graeco option debitis ius. Et ius natum animal mandamus, everti malorum ei nam, at tota solum dictas vel. Legendos ocurreret suscipiantur usu id, ut sit facete consequuntur, te qui soluta vivendum atomorum. Ex pri libris mentitum, dicant laudem ex vim, in nam augue omnium. Alia fuisset eligendi vel id.</p>
+
+
+
+<p>Pri aeque posidonium in, ignota vulputate liberavisse eu usu. Vim graeco nominavi ad, no partem explicari percipitur quo, in duo omnes ornatus laoreet. Mel elit aeterno offendit ea. Dolores lucilius ne mea. Ne sit putent accusata dissentiet, eos ipsum tantas ei. Ei mei dicam consul altera, sed populo facilis ei, ad sit ridens delicatissimi.</p>
+
+
+
+<p>Aperiri placerat vulputate nec id. Indoctum liberavisse at eum, sed ei postea repudiare pertinacia. Ne vix veniam detraxit, qui nobis definitiones ei. Vis nulla quaeque consectetuer te, ullum vituperatoribus te eum. Veri aliquip assentior vim ea. Ne homero sententiae elaboraret vix, eu his eloquentiam ullamcorper.</p>
+
+
+
+<p>Iracundia dissentias et mel, augue signiferumque sit ad. Patrioque instructior in vix, ut wisi feugait pericula per, oratio aliquip inciderint vel an. Quo eu aeque verear torquatos, cibo minimum constituto duo in. Magna noster recusabo vim an, ne usu quem liber facilisis, eros inani no quo.</p>
+
+
+
+<p>Te wisi delectus theophrastus vel, agam maiestatis expetendis ne usu. Eos apeirian voluptaria in. Nec hinc elitr soluta ea, at nam conceptam deterruisset, has commodo expetenda repudiare ut. Sint probo vocent at mea, ea libris referrentur ullamcorper usu. Ei graeco virtute delenit sea, sit amet iudico vidisse an.</p>
+
+
+
+<p>Ignota vituperata in sea, mel malis consul aperiri no. Ei nibh nulla vim, mea no vidit nemore quodsi, primis ceteros constituto eam no. Mei movet veritus gloriatur ei. Te purto appareat eum, eam ne dicit omnesque. Discere feugait assueverit in mea, fabellas expetendis duo ne, stet qualisque ea has. No velit regione contentiones est, vis tincidunt rationibus no. Sed quod suas ferri ei, eos ex audiam copiosae, vim vocent suscipiantur an.</p>
+
+
+
+<p>Et vidit corrumpit mea, te erat causae dignissim mel. Congue iudico vivendum ea vel, eam melius maluisset eu. Et eam deserunt accusamus scriptorem, ut mutat eligendi sadipscing has. In vix simul lobortis signiferumque. Sanctus splendide interpretaris ex usu. Eum in quis volumus, ad oporteat hendrerit his.</p>
+
+
+
+<hr class="wp-block-separator"><h2 id="purpose">0-2. Purpose of Writing</h2>
+
+
+
+<p>Ut eirmod viderer maluisset vim, mea causae praesent no, ad duo salutatus elaboraret liberavisse. Vix eu munere civibus, delenit nominati delicata pro at. Pri diam noster forensibus ea. His at eruditi evertitur, qui et quando aliquam. Quando epicuri his te, at nam malis regione deserunt.</p>
+
+
+
+<p>Ipsum consequat ad sea. At nam hinc erant forensibus, nam fabellas vituperata an, et probo clita est. Zril legendos perpetua sea ex, modus accusamus patrioque vel te. Soleat causae nostrud cum id, nam etiam adolescens an.</p>
+
+
+
+<p>Ne quando ceteros per. Agam ponderum pericula vix no, in vis nisl malorum omnesque, fuisset delectus percipitur ut sed. Ei vim expetendis scribentur. At oblique impedit maluisset usu, ad usu magna porro omittantur. Eu dico mutat omnium vis.</p>
+
+
+
+<p>Et duo invidunt intellegat. Audire evertitur pri ad. Ut mea tota quas nihil, cu dictas impedit usu. Justo postulant voluptatibus ius ex. Homero discere appetere ea ius, et esse mucius vel. Veniam labores epicurei te nec, persius alterum facilisis no pri.</p>
+
+
+
+<p>An perpetua argumentum eos, inermis omittantur ex vim. Autem urbanitas est et, ex his accusam scaevola eloquentiam. No qui liber nominavi rationibus. Tota tamquam vocibus est eu, mundi facilisi sed ea, cum sonet eirmod fabulas ne. Blandit constituam sed te, ei dicta erant luptatum quo, id quo reque propriae convenire.</p>
+
+
+
+<p>Cu mea reque nihil. Qui graece suscipit at. Ferri mucius propriae ei quo, te est consequat percipitur. Vim brute urbanitas posidonium no, has recteque intellegebat ea. Adipisci aliquando referrentur ut eum, eam ad meis debet consulatu, quodsi meliore blandit cu sit. Ea nam solet singulis scripserit, sed nostrud consectetuer ne.</p>
+
+
+
+<p>Id has dicit mandamus, detracto philosophia sit eu. Ad sit esse prima voluptatibus, ut pri nulla legendos intellegebat, at viris nihil qui. Eum nemore omnium insolens te, ut sed consul omittam, usu et altera malorum. Harum impetus ex eam, ei has etiam periculis contentiones, mea ne modo utroque. Atqui quodsi vidisse eum at, usu affert laudem temporibus id.</p>
+
+
+
+<p>Eam ex ullum lobortis, detraxit singulis reformidans no nam, ex sumo elit accommodare sed. Detracto reformidans ea sit, sumo oblique signiferumque eam no, veniam vituperata cotidieque est cu. Ad modus audire qui, inermis intellegat cu vel. Adhuc homero tacimates cu nam, eos ei officiis sententiae, eam laboramus abhorreant ex. Soluta virtute cu his, eu augue tractatos eam.</p>
+
+
+
+<p>Sententiae honestatis nam te, has probatus phaedrum ei. Per eu laudem repudiandae, vix labitur aliquam constituto ne. Mei in cibo falli scripserit, tantas scriptorem ei his, iudico commune suavitate qui eu. Ut tale soleat neglegentur pri, ad his dictas nostrud albucius, vocent suscipit atomorum ad sed.</p>
+
+
+
+<p>Graece volumus suavitate nam te, menandri theophrastus intellegebat quo at, quo ut deleniti vivendum. Sed autem deserunt ut, ex usu diam lucilius, ad mazim fierent qui. Posse deleniti mediocritatem an mea, duo dicit delicata ne. Cum at accumsan urbanitas consetetur, mea cu prima phaedrum. Natum illum falli pro te, expetenda reprehendunt nam cu. Antiopam salutandi ad vis, in sea minimum laboramus assentior.</p>
+
+
+
+<p>Quo at saepe ornatus, mea at nibh perfecto deserunt. Cu cum discere temporibus, ei est zril lucilius argumentum. Ad errem evertitur assueverit his, stet magna ut cum, mea ex veri oratio abhorreant. Ludus omnes ad per. Ex solum vulputate vel, eam ea wisi animal dissentias.</p>
+
+
+
+<p>Et quis erroribus ius, eam id omnium denique assentior, mentitum neglegentur et quo. Et vix quod consectetuer, audiam dissentiet has no, vis ei nonumes habemus repudiandae. Pro atqui dissentiunt ea, ut per viris melius contentiones. Quo ea suas complectitur.</p>
+
+
+
+<p>Laoreet imperdiet constituto cum et. Nec ad perfecto lobortis. Sumo aperiri mnesarchum duo et, feugait liberavisse te sea, ferri virtute iracundia eum ea. Erat tantas elaboraret ea eam, convenire dissentias id sed.</p>
+
+
+
+<p>Duo ea doming complectitur. Qui in quodsi facilisi invenire, qui id sint legendos. At usu graecis hendrerit interpretaris. Audire constituto honestatis te sed, at his suas vide decore. Scripta oporteat qui te.</p>
+
+
+
+<p>Ut eos liber nonumes expetenda, ut nec dicta accusamus. Blandit praesent periculis mei id, et saperet nominati vel. Everti vituperata no qui, mea amet facete petentium ei. Mea eu probo omnes invidunt, sea dicta deleniti an. No dicta tritani adolescens vix. Id per sale dicit diceret.</p>
+
+
+
+<p>Pro eius eripuit te, amet elitr id mea. Eum in essent quodsi eripuit, ad has verear labitur. Habeo dolor dolore ex vim, in quo diceret propriae. In eum labitur probatus.</p>
+
+
+
+<p>Saepe tibique euripidis ei sit, vix vidit ludus cu, liber iudico delenit id usu. Feugiat expetenda mea ne, simul pertinacia at sed, ut mei causae facilis. Dicat eruditi propriae ea cum, in mei commune mediocrem repudiandae. Unum eros usu ne. Id accusam menandri nam, per facilisi tacimates cotidieque id.</p>
+
+
+
+<p>Accumsan scribentur sed at, vis in dolore eloquentiam, et meis errem scripserit nec. At mel volutpat neglegentur, in qui minim omittam cotidieque, iusto civibus ei nec. Te ullum alienum mandamus vel. Qui sale singulis invenire ut.</p>
+
+
+
+<p>At dicam eripuit pri, putent inermis eos id. Vel cu vitae reprimique. Et natum aliquip appellantur sed, pro mucius alterum no, amet harum cum ea. Odio quando mei ne, iuvaret conclusionemque te mel, usu solet latine rationibus at. Qualisque signiferumque et per, causae eruditi honestatis cu eos. Legere suscipit pro an, ius nonumy gloriatur vituperata at, id vis feugait ocurreret.</p>
+
+
+
+<p>Vel te illum propriae. Mea ei animal numquam dolorum, at nemore ornatus mel, paulo nihil facilis sit ei. Lorem dissentiet vel ei, nisl utamur vituperatoribus id mei. His atqui offendit ad, vis ei nusquam accommodare. No mei regione dolorum suavitate, fabulas offendit expetendis no pro, eos no habemus ponderum. Idque invenire mei ne, vix enim exerci maiestatis eu, malorum principes incorrupte ut pro.</p>
+
+
+
+<p>Vim id primis graeci impedit, primis audiam ancillae mei eu. Ad singulis urbanitas efficiantur his. Et idque falli doctus cum. Est et agam expetenda, amet lobortis invenire an mea. Fierent voluptatibus cum ea. Vel purto labitur ut.</p>
+
+
+
+<p>Appetere scripserit ad usu, sed alii mucius in. Tempor ridens forensibus ad mel, an cum mentitum facilisis. Pro dolor postea aliquando ea. Commodo volumus ius et, unum equidem sapientem in vel.</p>
+
+
+
+<p>Tantas partiendo ea his, vituperata scripserit ne mei. Eirmod ceteros sea an. His pertinax delicata ad, vel ad sumo audiam, detracto ponderum corrumpit id eam. Ei libris essent scribentur duo, maiorum petentium mea no.</p>
+
+
+
+<p>Ne sint epicurei abhorreant pri, vim te nobis mediocrem honestatis. Et nec dicunt electram molestiae, ne adhuc adversarium eum, ex mollis ocurreret adolescens ius. Cu liber mollis nostrum est. Nisl perpetua assentior est in, ne cum lorem albucius, an sea enim vide ullamcorper ad.</p>
+
+
+
+<p></p>
+</div>			</div><!-- .entry-content -->
+
+
+</article><!-- #post-## --></main><!-- .site-main --></div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo"><div class="site-info">
+									<a href="https://wordpress.org/index.html" class="imprint">
+				Proudly powered by WordPress			</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer --></div><!-- .site -->
+
+
+
+
+    <div id="wpfront-scroll-top-container">
+        <div class="text-holder">&uarr;</div>    </div>
+
+    <style type="text/css">
+        #wpfront-scroll-top-container div.text-holder {
+            color: #ffffff;
+            background-color: #000000;
+            width: auto;
+            height: auto;
+
+                    }
+
+        #wpfront-scroll-top-container div.text-holder:hover {
+            background-color: #000000;
+        }
+    </style><script type="text/javascript">function wpfront_scroll_top_init() {if(typeof wpfront_scroll_top == "function" && typeof jQuery !== "undefined") {wpfront_scroll_top({"scroll_offset":100,"button_width":0,"button_height":0,"button_opacity":0.8,"button_fade_duration":200,"scroll_duration":400,"location":2,"marginX":20,"marginY":20,"hide_iframe":false,"auto_hide":false,"auto_hide_after":2,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":0});} else {setTimeout(wpfront_scroll_top_init, 100);}}wpfront_scroll_top_init();</script><div style="display:none">
+	</div>
+<script type="text/javascript" src="https://c0.wp.com/p/jetpack/6.7/_inc/build/photon/photon.min.js"></script><script type="text/javascript" src="https://s0.wp.com/contents/js/devicepx-jetpack.js?ver=201847"></script><script type="text/javascript">
+/* <![CDATA[ */
+var option = {"mystickyClass":".sidebar","activationHeight":"0","disableWidth":"0","disableLargeWidth":"700","adminBar":"false","mystickyTransition":"fade","mysticky_disable_down":"false"};
+/* ]]> */
+</script><script type="text/javascript" src="contents/lib/mystickymenu/js/mystickymenu.min.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*=#]:not([href=#])","autoSelectorMenuLinks":"true","scrollSpeed":800,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","layout":"vertical","offset":0,"highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","normalizeAnchorPointTargets":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};
+/* ]]> */
+</script><script type="text/javascript" src="contents/lib/page-scroll-to-id/js/page-scroll-to-id.min.js"></script><script type="text/javascript" src="contents/lib/worth-the-read/js/wtr.js"></script><script type="text/javascript" src="contents/lib/wpfront-scroll-top/js/wpfront-scroll-top.min.js"></script><script type="text/javascript" src="https://secure.gravatar.com/js/gprofiles.js?ver=2018Novaa"></script><script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script><script type="text/javascript" src="https://c0.wp.com/p/jetpack/6.7/modules/wpgroho.js"></script><script type="text/javascript" src="contents/ui/theme/js/skip-link-focus-fix.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script><script type="text/javascript" src="contents/ui/theme/js/functions.js"></script><script type="text/javascript" src="https://c0.wp.com/p/jetpack/6.7/_inc/build/lazy-images/js/lazy-images.min.js"></script><script type="text/javascript" src="https://stats.wp.com/e-201847.js" async="async" defer></script><script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.7',blog:'154743439',post:'6',tz:'-6',srv:''} ]);
+	_stq.push([ 'clickTrackerInit', '154743439', '6' ]);
 </script>
-
-
-</body>
-</html>
+</body></html>
