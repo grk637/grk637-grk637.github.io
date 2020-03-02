@@ -50,7 +50,7 @@ The content `<div>` is where all your content goes.
 .header {
      margin: 0;
      color: #333;
-     text-align: left;
+     text-align: center;
      padding: 2.5em 2em 0;
      border-bottom: 1px solid #eee;
  }
@@ -82,7 +82,7 @@ appears on the left side of the page.
 
 #menu {
     margin-left: -150px; /* "#menu" width */
-    width: 150px;
+    width: 300px;
     position: fixed;
     top: 0;
     left: 0;
@@ -108,12 +108,13 @@ appears on the left side of the page.
      #menu .pure-menu ul {
         border: none;
         background: transparent;
+            padding: 10%;
     }
 
     /*
     Add that light border to separate items into groups.
     */
-    #menu .pure-menu ul,
+    /*#menu .pure-menu ul,*/
     #menu .pure-menu .menu-item-divided {
         border-top: 1px solid #333;
     }
