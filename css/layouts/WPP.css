@@ -82,7 +82,7 @@ appears on the left side of the page.
 
 #menu {
     margin-left: -150px; /* "#menu" width */
-    width: 300px;
+    width: 150px;
     position: fixed;
     top: 0;
     left: 0;
@@ -91,7 +91,14 @@ appears on the left side of the page.
     background: #191818;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    font-size: 80%
 }
+
+#menu .menu-nonlink {
+    color: #999;
+    padding: 0.6em 0 0.6em 0.6em;
+}
+
     /*
     All anchors inside the menu should be styled like this.
     */
@@ -108,7 +115,7 @@ appears on the left side of the page.
      #menu .pure-menu ul {
         border: none;
         background: transparent;
-            padding: 10%;
+        padding: 5%;
     }
 
     /*
@@ -147,6 +154,12 @@ appears on the left side of the page.
         font-size: 110%;
         color: #fff;
         margin: 0;
+    }
+
+    #menu .menu-title {
+      font-size: 80%;
+      text-transform: uppercase;
+      padding-bottom: 7px;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
