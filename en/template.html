@@ -6,10 +6,24 @@
     <link rel="stylesheet" href="../tufte.css"/>
     <link rel="stylesheet" href="../latex.css"/>
 	<link rel="stylesheet" href="/css/WPP.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+<header>
+<!-- top navigation -->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#">One</a>
+  <a href="#">Two</a>
+  <a href="#">Three</a>
+  <a href="#">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</header>
 
-  <body>
+  <body> 
     <article>
       <h1 id="tufte-css">White Paper Project</h1>
       <p class="subtitle">The Impact of a T-Shirt: BTS Meets Politics in a Digital World</p><em>December 6, 2018 [KST]</em>
@@ -155,5 +169,17 @@
         <p>Many thanks go to Edward Tufte for leading the way with his work. It is only through his kind and careful editing that this project accomplishes what it does. All errors of implementation are of course mine.</p>
       </section>
     </article>
+	  
+	  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	  
   </body>
 </html>
