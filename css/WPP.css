@@ -1,0 +1,22 @@
+H1 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.ko {
+	font-family: serif;
+	font-size:90%;
+	line-height: 80%;
+}
+
+/*links*/
+
+a:link, a:visited {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size:85%;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color:cadetblue;
+}
