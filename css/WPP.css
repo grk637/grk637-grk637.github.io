@@ -1,5 +1,5 @@
-/*top navigation*
-.topnav {
+/*top navigation*/
+.nav {
   overflow: hidden;
   background-color: #333;
 font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -49,7 +49,6 @@ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed",
     display: block;
     text-align: left;
   }
-*/
 	
 
 H1 {
@@ -75,5 +74,4 @@ body a:link, a:visited {
 }
 
 body a:hover, a:active {
-	color:cadetblue;
-	}
+	color:cadetblue;}
