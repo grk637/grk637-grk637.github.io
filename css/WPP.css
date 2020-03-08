@@ -25,11 +25,16 @@ a:hover, a:active {
 }
 
 /*Top Nav*/
-body {
+/*body {
 	margin:10px;
+}*/
+#myTopnav {
+	margin-left: -24px;
+	width: 100%;
 }
 
 .topnav {
+	
   overflow: hidden;
   background-color: #fffff8;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
