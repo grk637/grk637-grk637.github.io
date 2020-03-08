@@ -17,10 +17,8 @@
 }
 
 .paging a:link, a:visited {
-    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: 600;
 	text-decoration: none;
-	text-transform: uppercase;
 	font-style: normal;
 	color: #2eb8b8;
 }
