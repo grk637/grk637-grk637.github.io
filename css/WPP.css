@@ -1,14 +1,8 @@
-
-
-
 /* styling */
-
-
-H1 {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	margin-bottom:-1%;
+.sidenote, .marginnote {
+	color: #248f8f;
+	
 }
-
 .ko {
 	font-family: serif;
 	font-size:90%;
@@ -18,7 +12,7 @@ H1 {
 /*links*/
 
 a:link, a:visited {
-	color:red;
+	color:#2eb8b8;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size:85%;
 	font-weight: 600;
@@ -26,5 +20,30 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	color:cadetblue;
+	color:#248f8f;
+}
+
+/* footer - ignore for now*/
+.footer-nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fffff8;
+  color: #111;
+  text-align: center;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 2em;
+  overflow: hidden;
+	font-size: 1em;
+}
+
+.footer-nav li {
+  display: inline;
+  padding-right: 5%;
+	padding-bottom: 5%;
 }
