@@ -39,7 +39,7 @@ a:hover, a:active {
   background-color: #fffff8;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: 300;
-	color: #2eb8b8;
+	color: #111;
 	text-transform: uppercase;
 	text-decoration: none !important;
 	
@@ -48,7 +48,7 @@ a:hover, a:active {
 .topnav a {
   float: left;
   display: block;
-  color: #2eb8b8;
+  color: #111 !important;
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
@@ -57,6 +57,7 @@ a:hover, a:active {
 
 .active {
   color: #111;
+	text-decoration: underline;
 }
 
 .topnav .icon {
@@ -72,7 +73,7 @@ a:hover, a:active {
   font-size: 14px;    
   border: none;
   outline: none;
-  color: #2eb8b8;
+  color: #111;
   padding: 24px 26px;
   background-color: inherit;
   margin: 0;
@@ -102,7 +103,7 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 
 .topnav a:hover, .dropdown:hover .dropbtn {
   /*background-color: #555;*/
-  color: #2eb8b8;
+  color: #2eb8b8 !important;
 }
 
 .dropdown-content a:hover {
