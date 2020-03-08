@@ -52,8 +52,7 @@ a:hover, a:active {
 }
 
 .active {
-  background-color: #4CAF50;
-  color: #248F8F;
+  color: #111;
 }
 
 .topnav .icon {
