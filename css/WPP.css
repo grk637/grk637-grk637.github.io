@@ -1,8 +1,8 @@
 /* styling */
-.sidenote, .marginnote {
-	color: #248f8f;
-	
+.sidenote, .marginnote, .margin-toggle, .sidenote-number {
+	color: #248f8f !important;
 }
+
 .ko {
 	font-family: serif;
 	font-size:90%;
@@ -47,3 +47,4 @@ a:hover, a:active {
   padding-right: 5%;
 	padding-bottom: 5%;
 }
+
