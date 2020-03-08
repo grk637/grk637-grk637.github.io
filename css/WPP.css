@@ -26,6 +26,9 @@
 	color:#248f8f !important;
 }
 
+img {
+	border: 1px solid #ccc;
+}
 /*links*/
 
 p a:link, a:visited {
@@ -365,7 +368,7 @@ li:not(:first-child) {
 }
 
 figure {
-    padding: 0;
+    padding-top: 1rem;
     border: 0;
     font-size: 100%;
     font: inherit;
@@ -374,6 +377,11 @@ figure {
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     margin: 0 0 3em 0; 
+}
+
+figure a:link {
+	color:#2eb8b8 !important;
+	font-style: italic;
 }
 
 figcaption {
