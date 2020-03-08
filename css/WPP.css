@@ -6,6 +6,10 @@
 	color: #2eb8b8 !important;
 }
 
+.sidenote-number, .margin-toggle {
+	font-weight: bold;
+}
+
 .ko {
 	font-family: serif;
 	font-size:90%;
