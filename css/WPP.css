@@ -114,7 +114,7 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
   }
   .topnav a.icon {
     float: right;
-
+margin-top: -5px;
     display: block;
   }
 }
