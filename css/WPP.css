@@ -32,8 +32,8 @@ img {
 /*links*/
 
 p a:link, a:visited {
-	color:#2eb8b8 !important;
-	font-weight: 600;
+	/*color:#2eb8b8 !important;*/
+	/*font-weight: 600;*/
 	font-style: italic;
 }
 a:hover, a:active {
