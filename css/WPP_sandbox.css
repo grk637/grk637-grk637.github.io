@@ -51,7 +51,7 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-.nav-link, .dropdown {
+.nav-link, .dropdown .active {
   color: #111 !important;
 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
   text-decoration: none;
@@ -60,7 +60,7 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 }
 
 .active {
-	border-bottom: 1pt solid #111;}
+	  text-decoration: underline;}
 
 /*Top Nav*/
 /*body {
