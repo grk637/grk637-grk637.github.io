@@ -2,6 +2,7 @@
 /* CSS Document */
 
 /* custom */ 
+
 .sidenote, .marginnote, .margin-toggle, .sidenote-number {
 	color: #2eb8b8 !important;
 }
@@ -135,7 +136,8 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 
 /* Tufte CSS styles */
 html {
-    font-size: 15px; 
+    font-size: 15px;
+	background-color: #fffff8 ;
 }
 
 #container {
