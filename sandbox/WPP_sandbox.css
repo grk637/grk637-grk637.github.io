@@ -7,6 +7,12 @@ html {
 	background-color: #fffff8 ;
 }
 
+
+body {
+ height: 100%;
+ position: relative;
+}
+
 #container {
     width: 87.5%;
     margin-left: auto;
@@ -17,7 +23,15 @@ html {
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter; 
+	/* for footer */
+	min-height: 90vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
 }
+
+
 
 body {
     width: 87.5%;
@@ -76,7 +90,7 @@ a:hover, a:active {
 /*Nav Bar Bootstrap*/
 
 .navbar {
-	background-color: rgba(255, 255, 248, 1) !important;
+	background-color: rgba(255, 255, 248, .95) !important;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: 400;
 	font-size: 14px;
@@ -120,12 +134,15 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 		background-color: rgba(255, 255, 250, 0.95) !important;
 }
 
-footer nav {
-	position:absolute;
-width: 100%;
+footer {
 background-color: rgba(255, 255, 250, 0.9);
-  bottom: 0;
+position: absolute;
+width: 100%;
+bottom: 0;
 }
+
+.footer-text 
+{font-size: 10px !important;}
 
 
 /*Tufte*/
