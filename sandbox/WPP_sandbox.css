@@ -23,13 +23,15 @@ body {
     width: 87.5%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12.5%;
+    /*padding-left: 12.5%;*/
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #fffff8 !important;
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter; 
 }
+
+
 
 /* custom */ 
 
@@ -79,7 +81,7 @@ a:hover, a:active {
 	font-weight: 400;
 	font-size: 14px;
 	color: #111;
-	text-transform: uppercase;
+	text-transform: uppercase !important;
 	text-decoration: none;
 	padding: 20px;
 	/*border-bottom: 1px solid #e9ecef !important;*/
@@ -102,6 +104,7 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 	padding-left: 20px;
 	padding-right: 10px;
 	text-align: left;
+	text-transform: uppercase;
 }
 
 .active {
@@ -116,6 +119,14 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 .dropdown-menu {
 		background-color: rgba(255, 255, 250, 0.95) !important;
 }
+
+footer nav {
+	position:absolute;
+width: 100%;
+background-color: rgba(255, 255, 250, 0.9);
+  bottom: 0;
+}
+
 
 /*Tufte*/
 
