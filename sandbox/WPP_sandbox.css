@@ -134,15 +134,21 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 		background-color: rgba(255, 255, 250, 0.95) !important;
 }
 
-footer {
+.footer {
 background-color: rgba(255, 255, 250, 0.9);
 position: absolute;
 width: 100%;
 bottom: 0;
 }
 
-.footer-text 
-{font-size: 10px !important;}
+.footer-text {
+	font-size: 12px;
+	text-align:center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-transform: uppercase;
+}
+
+.spacer {margin-top: 2em;}
 
 
 /*Tufte*/
