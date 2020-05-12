@@ -1,74 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8"/>
+    <title>White Paper Project</title>
+	<link rel="stylesheet" type="text/css" href="/css/WPP.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WPP | 2-2. Investigation</title>
-
-
-    <!-- Bootstrap -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	  
-	  	  <!--custom -->
-<link rel="stylesheet" type="text/css" href="../css/WPP.css">
-	  
-	  <!-- fontawesome -->
-	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	  
-  </head>
+	</head>
 	
-<!-- Bootstrap Nav -->
+  <body> 
+	  <div id="container">
+		  <!-- Top Nav -->
+<div class="topnav" id="myTopnav">
+  <a href="../en/en.html">White Paper Project.</a>
+	<a href="#language"><span class="active">EN</span> &bull; 한국어</a>
+  <div class="dropdown">
+    <button class="dropbtn">Table of Contents&nbsp;
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	  <a href="#" ><span class="active">Author's Note</span></a>
+      <a href="#">1. Introduction</a>
+      <a href="#">2. Overview of Recent Events</a>
+      <a href="#">3. Historical Context</a>
+	  <a href="#">4. Fandom Response</a>
+      <a href="#">5. Closing Remarks</a>
+      <a href="#">6. References</a>
+	  <a href="#">7. Appendix</a>
+    </div>
+  </div> 
+    <a href="#about">About</a>
+	<a href="#about">Statement from J-ARMY</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 	
-<body style="padding-top: 70px">
-	<!-- scroll to top button -->
-	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i><br>Top</button>
-	<!--nav-->
-<nav class="navbar fixed-top navbar-expand-sm navbar-light"> 
-	<a class="navbar-brand" href="#">White Paper Project.
-	  </a>
-	
-	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-		
-					<!--language toggle -->
-		<!-- <ul class="navbar-nav mr-auto">
-		    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-globe-americas"></i> EN </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown2"> <a class="dropdown-item" href="#">English</a> <a class="dropdown-item" href="#">한국어</a></div>
-          </li>
-	  </ul> -->
-
-      <ul class="navbar-nav ml-auto">
-		  	    <li class="nav-item"> <a class="nav-link" href="#">  </a> </li>
-        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Table of Contents </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
-			  <a class="dropdown-item" href="#">Author's Note</a> 
-			  <div class="dropdown-divider"></div>
-			  <a class="dropdown-item" href="#">1. Introduction</a>
-            <a class="dropdown-item" href="#">2. Overview of Recent Events</a> 
-			  <a class="dropdown-item" href="#">3. Historical Context</a>
-            <a class="dropdown-item" href="#">4. Fandom Response</a> 
-			  <a class="dropdown-item" href="#">5. Closing Response</a>
-            <a class="dropdown-item" href="#">6. References</a> 
-			<a class="dropdown-item" href="#">7. Appendix</a> 
-			  <div class="dropdown-divider"></div>
-			  <a class="dropdown-item" href="#">Statement from J-ARMY</a> </div>
-		  </li>
- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About </a>
-	        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown3"> <a class="dropdown-item" href="#">Who We Are</a> <a class="dropdown-item" href="#">Contact Us</a></div>
-          </li>
-      </ul>
-	  </div>
-     <!-- search 
-		<form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
-  </nav>
-
-     <!--content -->
-<div id="container">
-   <article>
+	  <!--content -->
+		  
+    <article>
       <h1 id="tufte-css">2. Overview of Recent Events</h1>
       <hr>
       <section>
@@ -79,66 +47,34 @@
 <p>On the afternoon of November 11 (EST), the Simon Wiesenthal Center (SWC) released a press statement which expanded the scale of the controversy considerably. (SWC, 2018 [20]). In a statement titled “Popular Korean Band Whose Japan Performance Was Cancelled For T-Shirt Mocking A-Bomb Victims, Once Posed With Nazi SS Death Head Symbols, Flew Nazi-Like Flags At Concert,” the associate dean of the center, Rabbi Abraham Cooper, stated, “…wearing a T-shirt in Japan mocking the victims of the Nagasaki A-bomb, is just the latest incident of this band mocking the past.” Referencing a hat with a historically Nazi-linked symbol a BTS member was seen wearing during a 2014 photoshoot, he stated that “the result [from wearing the hat] is that… young generations in Korea and around the world are more likely to identify bigotry and intolerance as being ‘cool’ and help erase the lessons of history… those designing and promoting this group’s career are too comfortable with denigrating the memory of the past” (SWC, 2018 [20]).&nbsp;</p>
 <p>The Center further claimed that the group waved flags at a concert that “were eerily similar to the Nazi swastika” and demanded that they owed “the people of Japan and the victims of the Nazism an apology,” directly citing a video thread with Japanese captions found on Twitter (SWC, 2018 [20]). This video thread had been uploaded by a Japanese Twitter account by the name of “TAro”, which was created in November 2018 and deactivated soon after the scandal faded from the international media landscape. Before it disappeared, “TAro” was following a total of nine other Twitter accounts, one of which belonged to Katsuya Takasu – a plastic surgeon, Nazi sympathizer, and denier of the Nanjing Massacre who the SWC made it their mission1 to see removed from the American Academy of Cosmetic Surgeons in 2017 (SWC, 2017 [21]).</p>
 
-		  <img src="../img/WWP_fig01.png" class="rounded img-fluid" alt="SWC Tweet"/>
+		  <img src="../img/WWP_fig01.png" alt="SWC Tweet"/>
 		  
 		  <figure>Fig. 1. Simon Wiesenthal Center. (2017). [Screenshots of Takasu Katsuya’s twitter account with translations]. Retrieved November 8th, 2018, from <a href="https://web.archive.org/web/20171114083415/http://www.wiesenthal.com/site/apps/nlnet/content.aspx?c=lsKWLbPJLnF&b=8776547&ct=15007267&notoc=1" target="_blank">https://web.archive.org/web/20171114083415/http://www.wiesenthal.com/site/apps/nlnet/content.aspx?c=lsKWLbPJLnF&b=8776547&ct=15007267&notoc=1 </a> <br>Screenshot by author. </figure>
 		  
         <p>After the SWC released this statement, many international media outlets, including ABS-CBN (ABS-CBN, 2018 [1]), The Sun (du Cann, 2018 [5]), The Korea Times (Lee, 2018 [11]), and The Guardian (McCurry, 2018 [15]), picked up the story and circulated the SWC’s list of accusations against BTS. However, these accusations were circulated without regard for their factual accuracy and in the absence of a more nuanced understanding of contemporary Korean-Japanese relations, a central contextual ground on which this controversy developed. In the following, we examine the factual accuracies of each of the accusations that have been made against the group over the course of this scandal and reflect on how these accusations have been received and reported on by the general media. Both BTS’ past choices and the media’s faulty reporting practices that we observe in detail below reveal how critical cultural sensitivity is for anyone that strives to successfully navigate global interactions today. We reflect on these lessons about cultural awareness at the end of this section. </p>
         <h3>The T-Shirt</h3>
-        <img src="../img/WWP_fig02.png" class="rounded img-fluid" alt="Jimin wearing Ourhistory T-Shirt"/>
-		  <figure>Fig. 2. Allkpop. (2018). [Screenshot of Jimin wearing the Ourhistory T-shirt and closeup of back design].  Retrieved November 8th, 2018, from <a href="https://www.allkpop.com/article/2018/11/designer-of-the-controversial-shirt-that-jimin-wore-speaks-up-about-the-issues-on-the-atomic-bomb-photo-and-more">https://www.allkpop.com/article/2018/11/designer-of-the-controversial-shirt-that-jimin-wore-speaks-up-about-the-issues-on-the-atomic-bomb-photo-and-more</a><br>Screenshot by author.</figure>
+        <img src="../img/WWP_fig02.png" alt="Jimin wearing Ourhistory T-Shirt"/>
+		  <figure>Fig. 2. Allkpop. (2018). [Screenshot of Jimin wearing the Ourhistory T-shirt and closeup of back design].  Retrieved November 8th, 2018, from <a href="https://www.allkpop.com/article/2018/11/designer-of-the-controversial-shirt-that-jimin-wore-speaks-up-about-the-issues-on-the-atomic-bomb-photo-and-more">https://www.allkpop.com/article/2018/11/designer-of-the-controversial-shirt-that-jimin-wore-speaks-up-about-the-issues-on-the-atomic-bomb-photo-and-more</a>. Screenshot by author.</figure>
 </section>
-		
-		<!-- paging-->
-		<section class="spacer">
-		  <div class="d-flex flex-row justify-content-center ml-n3 mt-0">
-<ul class="nav">
-					<li class="nav-item">&nbsp;&nbsp;</li>
-	<li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-arrow-left"></i></a></li>
-			<li class="nav-item">&nbsp;&nbsp;</li>
-	<li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-arrow-right"></i></a></li>
-					<li class="nav-item">&nbsp;&nbsp;</li>
-		  </ul>
-		   </div>
-    </section>
-	
-	  	<!-- Footer -->
-<footer class="footer">
-  <div class="container">
-	  <hr style="width:100%">
-			<p class="footer-text">&copy; 2020 White Paper Project </p>
-		</div>
-</footer>
-  </article>
-	</div>
+		<section class="paging"><p><a href="../2_Overview.html">Continue &#10142;</a></p></section>
+	  </article>
+		  		 <footer><hr>
+Copyright &copy; 2020
+	</footer>	  
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="../js/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	
-	<script>
-		//Get the button:
-mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+	  
+	  	  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
   } else {
-    mybutton.style.display = "none";
+    x.className = "topnav";
   }
 }
+</script>
+		</div>   
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-	</script>
-</body>
-	
+  </body>
+
 </html>

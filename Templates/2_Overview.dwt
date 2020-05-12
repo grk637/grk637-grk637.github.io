@@ -2,18 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
+    <!-- TemplateBeginEditable name="doctitle" -->
     <title>White Paper Project</title>
-	<link rel="stylesheet" type="text/css" href="/css/WPP.css">
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- TemplateEndEditable -->
+    <link rel="stylesheet" type="text/css" href="/css/WPP.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+  </head>
 	
   <body> 
 	  <div id="container">
 		  <!-- Top Nav -->
 <div class="topnav" id="myTopnav">
   <a href="../en/en.html">White Paper Project.</a>
-	<a href="#language"><span class="active">EN</span> &bull; 한국어</a> 
+	<a href="#language"><span class="active">EN</span> &bull; 한국어</a>
   <div class="dropdown">
     <button class="dropbtn">Table of Contents&nbsp; 
     <i class="fa fa-caret-down"></i>
@@ -37,15 +40,20 @@
 	  <!--content -->
 		  
     <article>
-      <h1 id="tufte-css">1. Introduction</h1>
+      <h1 id="tufte-css">2. Overview of Recent Events</h1>
       <hr>
       <section>
-<p>In mid-October, an image of BTS member Jimin surfaced online.</p>
+<h2>2-1. Overview of Recent Events</h2>
 
-<p>Taken from the YouTube Premium series <em>Burn the Stage</em>, the screenshot showed Jimin wearing a T-shirt with a depiction of the atomic bombing of Nagasaki, a rendering of Korean people celebrating their liberation from Japanese occupation at the end of World War II, and the words “Patriotism,” “Our History,” “Liberation,” and “Korea” in English. The T-shirt ignited debate about the intention and the consequences of Jimin’s wearing the garment. On November 8, TV Asahi canceled BTS’ scheduled appearance on <em>Music Station</em>, specifying the debate around the T-shirt as the reason for cancellation. Four days later, the Simon Wiesenthal Center (SWC) issued a statement, condemning Big Hit Entertainment and BTS for “mocking the history.” On November 13, Big Hit Entertainment published a statement, which seemed to bring the fire under control.</p>
+<p>In October 2018, an image of BTS member Jimin began to circulate. In the image, taken from the group’s 2018 YouTube Premium series Burn The Stage, Jimin <a href="http://ourhistory.co.kr/web/product/big/201608/121_shop1_954929.jpg" target="blank">wears a T-shirt</a> featuring an aerial photo of the mushroom cloud from the atomic bombing of Nagasaki on August 9, 1945. The photo is accompanied by the words “Patriotism,” “Our History,” “Liberation,” and “Korea” in English, as well as a rendering of Korean people celebrating their liberation from Japanese occupation at the end of World War II. The T-shirt was controversial and ignited debate about the propriety of the design, as well as the impact of an idol wearing it.</p>
 
-<p>It is no surprise that BTS’ fans, officially known as ARMYs, tracked this series of events closely. We, the team of the White Paper Project, were some of them.</p>
-<p>In fact, we came together due to the frustrations that we shared: we were all frustrated by the online conversation surrounding the T-shirt incident, by the one-sided coverage from the international media, and by the statement released by the SWC. </p>
+<p>BTS was due to release a new Japanese album on November 7 amid soaring popularity in the country. They were also gearing up for the Japanese leg of their 2018 world tour. Several appearances on Japanese TV programs were scheduled, and there was rumor of an almost unprecedented appearance on the hugely popular year-end television program <em>Kōhaku Uta Gassen</em>.</p>
+<p>Meanwhile, an <a href="https://www.usnews.com/news/world/articles/2018-11-28/south-korea-top-court-orders-japans-mitsubishi-to-compensate-former-south-korean-forced-laborers" target="blank">October 30</a> ruling by South Korea’s Supreme Court stoked Korean-Japanese political tensions. In the ruling, Japanese steelmaker Nippon Steel &amp; Sumitomo Metal Corporation was ordered to pay 100 million won<label for="sn-1" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-1" class="margin-toggle"/>
+	<span class="sidenote">
+  The equivalent of US$87,680</span>
+	
+each to four Korean men in compensation for forced labor rendered during WWII. </p>
 <p>We wanted to show that there was more to the story than what was being reported. We wanted to show that the skewed reporting by the media and perceptions by some members of the public erased Korean experiences of history. We wanted to show that the SWC’s statement was problematic. We wanted more of the situation to be told. We all wanted to <em>do</em> something. </p>
 <p>So because of this, and because we are all fans of BTS and care about how they are perceived, we decided to work together to write this paper. </p>
 <p>For this reason, the White Paper Project is not an expansive study of this entire issue, but one that focuses on two particular concerns that we felt had not been given a voice in the general discussion surrounding it. </p>
