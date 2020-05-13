@@ -83,13 +83,14 @@ a {
 	word-wrap: break-word;
 }
 p a:link, a:visited {
-	/*color:#2eb8b8 !important;*/
+	color:#2eb8b8;
 	/*font-weight: 600;*/
-	font-style: italic;
+	/*font-style: italic;*/
+	text-decoration: underline;
 }
 
 a:visited {
-		color:#2eb8b8 !important;
+		/*color:#2eb8b8 !important;*/
 }
 
 a:hover, a:active {
@@ -138,6 +139,10 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 	text-decoration: underline;
 }
 
+.dropdown-item:active, .dropdown-item:hover {
+	background-color: #f6f6f6;
+}
+
 .navbar-toggler {
 	border: 1px solid transparent !important;
 }
@@ -145,6 +150,13 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 .dropdown-menu {
 		background-color: rgba(249,249,249, .9) !important;
 	border-radius: 0px;
+}
+
+.dropdown-toggle::after {
+	color: #f9f9f9;
+}
+
+.navbar-toggler-icon {
 }
 
 .footer {
@@ -187,7 +199,8 @@ bottom: 0;
 
 #myBtn:hover {
   color: #248f8f; /* Add color on hover */
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
+	background-color: #f6f6f6;
 }
 
 /*Tufte*/
@@ -383,6 +396,7 @@ figure {
 figure a:link {
 	color:#2eb8b8 !important;
 	font-style: italic;
+	text-decoration: underline;
 }
 
 figcaption {
