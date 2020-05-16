@@ -160,7 +160,7 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 	
 }
 .subnav-list p {
-	font-size: 14px;
+	font-size: 14px !important;
 	/*font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-transform: uppercase; */
 	margin-bottom: -5px;
