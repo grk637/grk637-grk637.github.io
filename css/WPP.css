@@ -137,6 +137,7 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 .secondary {
 	border-left: 1px solid rgba(0,0,0,.15) !important;
 	margin-left: 40px;
+	margin-top: -1px !important;
 }
 
 .subnav {
@@ -147,6 +148,27 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 	width: 100%;
 }
 
+.subnav-list {
+	/*background-color: rgba(249,249,249, .95) !important;*/
+	/*border-bottom: 1px solid rgba(0,0,0,.15);*/
+	/*background-color: rgba(0,0,0,.15);*/
+	/*padding: 20px;*/
+	/*margin: 10px;*/
+	border-radius: 20px;
+	word-break: normal;
+	width: 100%;
+	
+}
+.subnav-list p {
+	font-size: 14px;
+	/*font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-transform: uppercase; */
+	margin-bottom: -5px;
+	font-weight: 600;
+	color: rgba(0,0,0,.50);
+	
+	font-style: italic;
+}
 .subnav a {
 		/*color: red !important;*/
 }
