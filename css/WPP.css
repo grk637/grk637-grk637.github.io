@@ -100,7 +100,7 @@ a:hover, a:active {
 /*Nav Bar Bootstrap*/
 
 .navbar {
-	background-color: rgba(249,249,249, 1) !important;
+	background-color: rgba(249,249,249, .95) !important;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: 400;
 	font-size: 14px;
@@ -109,7 +109,7 @@ a:hover, a:active {
 	text-decoration: none;
 	padding: 20px;
 	/*border-bottom: 1px solid #e9ecef !important;*/
-	border-bottom: 1px solid rgba(0,0,0,.15);
+	/*border-bottom: 1px solid rgba(0,0,0,.15);*/
 	width: 90%;
 	margin: 0 auto;
 }
@@ -134,10 +134,30 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 	text-transform: uppercase;
 }
 
+.secondary {
+	border-left: 1px solid rgba(0,0,0,.15) !important;
+	margin-left: 40px;
+}
+
+.subnav {
+	background-color: rgba(249,249,249, .95) !important;
+	position: fixed;
+	top:78px;
+	z-index: 99;
+	width: 100%;
+}
+
+.subnav a {
+		/*color: red !important;*/
+}
+
 .active {
 	font-weight: 600;
 	text-decoration: underline;
+	background-color: transparent !important;
+	color: #111 !important;
 }
+
 
 .dropdown-item:active, .dropdown-item:hover {
 	background-color: #f6f6f6;
@@ -195,6 +215,7 @@ bottom: 0;
   font-weight: 400;
   text-transform: uppercase !important;
   text-decoration: none;
+	text-align: center;
 }
 
 #myBtn:hover {
