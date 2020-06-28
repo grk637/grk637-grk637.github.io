@@ -55,7 +55,7 @@
 
   <div class="container">
 	  	  <hr style="width:100%">
-			<p class="footer-text">&copy; 2020 White Paper Project. All Rights Reserved. </p>
+			<p class="footer-text">&copy; 2020 White Paper Project. &nbsp; <span class="title-break"> All Rights Reserved.</span> </p>
 		</div>
 </footer>
 
@@ -69,6 +69,15 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="../js/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+<script>
+	document.addEventListener('copy', (event) => {
+  const pagelink = `\n\nWHITE PAPER PROJECT\nhttp://www.whitepaperproject.com`;
+/${document.location.href}`;/
+  event.clipboardData.setData('text', document.getSelection() + pagelink);
+  event.preventDefault();
+});</script>	
+	
 
 </body>
 
